@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sbooky! | Movie</title>
+  <link rel="stylesheet" href="./movie.css" />
+  <link rel="stylesheet" href="./fonticon/css/font-awesome.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&display=swap" rel="stylesheet" />
+</head>
+
+<body style="font-family: 'Josefin Sans', sans-serif; background-color: #1a0201">
+  <div class="navigator">
+    <ul class="nav-list">
+      <li id="hello" class="nav-items Alt"><a href="./index.html" class="items">Menu</a></li>
+      <li class="nav-items Nav_Home"><a href="./index.html" class="items">Home</a></li>
+      <li class="nav-items Nav_Movies"><a href="./movie.html" class="items">Movies</a></li>
+      <li class="nav-items Nav_Shop"><a href="./shop.html" class="items shop">Shop</a></li>
+      <li class="nav-items Nav_More"><a href="./more.html" class="items">More</a></li>
+    </ul>
+    <ul class="nav-list">
+      <li class="nav-logo">S<span style="color: orange;">BOO</span>KY!</li>
+    </ul>
+    <ul class="nav-list">
+      <li class="search nav-items "><i class="fa fa-search" aria-hidden="true"></i><span class="items"> Search</span>
+      </li>
+      <li class="nav-items-bars" id="menu_nav" style="padding: 20px 30px 0px 30px;"><i class="fa fa-bars"
+          aria-hidden="true"></i></li>
+    </ul>
+  </div>
+  <div style="display: none;" class="NaviMobile" id="NaviMobile">
+    <ul class="nav-list-mobile">
+      <li class="nav-items-mobile Nav_Hom_Mobile"><a href="./index.html" class="items">Home</a></li>
+      <li class="nav-items-mobile Nav_Movies_Mobile"><a href="./movie.html" class="items">Movies</a></li>
+      <li class="nav-items-mobile Nav_Shop_Mobile"><a href="./shop.html" class="items shop">Shop</a></li>
+      <li class="nav-items-mobile Nav_More_Mobile"><a href="./more.html" class="items">More</a></li>
+    </ul>
+
+
+  </div>
+  <div id="menu" style="display: none;" class="menu">
+    <uL style="list-style: none; padding: 0px; margin: 0px;">
+      <li class="SignIn_text menu_signin menu_son" id="menu_signin">
+        <h4>SignIn</h4>
+      </li>
+    </uL>
+  </div>
+
+  <div style="display: none;" class="Modal_SignIn_Form" id="Modal_Form">
+    <div class="Modal_content" id="Modal_content_id">
+      <div style="width: 94%; display: flex; justify-content: end;">
+        <i class="fa faaaaa fa-times" id="faaaaa" aria-hidden="true"></i>
+      </div>
+      <form class="SignIn_Form">
+        <h1 class="Sign_text_content" id="Sign_text_content">Sign In</h1>
+        <input type="text" placeholder="Username" class="input_signin">
+        <hr class="line_modal">
+        <input type="password" placeholder="Password" class="input_signin">
+        <hr class="line_modal">
+        <input type="button" value="Submit" class="Submit_Modal">
+        <h5 class="other_form hoverable">Forgot Password?</h5>
+        <hr class="line_modal_other">
+        <h5 class="other_form">Don't have an account? <span class="hoverable">Create one</span></h5>
+      </form>
+    </div>
+  </div>
+  <div class="Filmm" style="display: flex; justify-content: center; align-items: center">
+    <div class="mmm" style="
+          padding-top: 50px;
+          margin-top: 100px;
+          background-color: #2e0301;
+          border-radius: 50px;
+          width: 87%;
+          align-self: center;
+        ">
+      <h1 class="FilmHeader">IT CHAPTER 2</h1>
+      <div class="Fu">
+        <div class="Movies">
+          <img src="./images/Movies/It2.jpg" class="MovieImg" />
+        </div>
+        <div class="Movpara">
+          <h2 class="HeadMov">Details</h2>
+          <p class="movdetail">
+            <span style="font-weight: 400; color: #b3bc36">Director:</span>
+            Andy Muschietti
+          </p>
+          <p class="movdetail">
+            <span style="font-weight: 400; color: #b3bc36">Genre:</span>
+            Horror, Mystery, Thriller, Supernatural
+          </p>
+          <p class="movdetail">
+            <span style="font-weight: 400; color: #b3bc36">Release dates:</span>
+            August 26, 2019
+          </p>
+          <p class="movdetail">
+            <span style="font-weight: 400; color: #b3bc36">Running time:</span>
+            169 minutes
+          </p>
+          <p class="movdetail">
+            <span style="font-weight: 400; color: #b3bc36">Rate:</span> Rated
+            R for disturbing violent content and bloody images throughout,
+            pervasive language, and some crude sexual material.
+          </p>
+          <h2 class="HeadMov">Description</h2>
+          <p class="ParaMov">
+            Twenty-seven years after It’s initial defeat, Pennywise returns to
+            Derry, Maine, in 2016. It kills a man named Adrian Mellon after he
+            and his boyfriend are brutally assaulted by homophobic teens
+            following a carnival.
+          </p>
+          <input class="BuyBtn" type="button" value="Buy a ticket" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="Filmm" style="display: flex; justify-content: center; align-items: center">
+    <div class="mmm" style="
+          padding-top: 50px;
+          margin-top: 50px;
+          background-color: #2e0301;
+          border-radius: 50px;
+          width: 87%;
+          align-self: center;
+        ">
+      <h1 class="FilmHeader">THE SHINING</h1>
+      <div class="Fu">
+        <div class="Movies">
+          <img src="./images/Movies/The Shinning.jpg" class="MovieImg" />
+        </div>
+        <div class="Movpara">
+          <h2 class="HeadMov">Details</h2>
+          <p class="movdetail">
+            <span style="font-weight: 400; color: #b3bc36">Director:</span>
+            Stanley Kubrick
+          </p>
+          <p class="movdetail">
+            <span style="font-weight: 400; color: #b3bc36">Genre:</span>
+            Horror, Psychological horror, Mystery
+          </p>
+          <p class="movdetail">
+            <span style="font-weight: 400; color: #b3bc36">Release dates:</span>
+            May 23, 1980
+          </p>
+          <p class="movdetail">
+            <span style="font-weight: 400; color: #b3bc36">Running time:</span>
+            146 minutes
+          </p>
+          <p class="movdetail">
+            <span style="font-weight: 400; color: #b3bc36">Rate:</span> Rated
+            R by the MPAA For graphic violence, profanity, and brief nudity.
+            Violence: A large volume of blood is seen throughout the film.
+          </p>
+          <h2 class="HeadMov">Description</h2>
+          <p class="ParaMov">
+            Jack Torrance takes a winter caretaker position at the remote
+            Overlook Hotel in the Colorado Rocky Mountains, which closes every
+            winter season. After his arrival, manager Stuart Ullman advises
+            Torrance that a previous caretaker, Charles Grady, killed his
+            wife, two young daughters and himself in the hotel.
+          </p>
+          <input class="BuyBtn" type="button" value="Buy a ticket" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="Filmm" style="display: flex; justify-content: center; align-items: center">
+    <div class="mmm" style="
+          padding-top: 50px;
+          margin-top: 50px;
+          background-color: #2e0301;
+          border-radius: 50px;
+          width: 87%;
+          align-self: center;
+        ">
+      <h1 class="FilmHeader">US</h1>
+      <div class="Fu">
+        <div class="Movies">
+          <img src="./images/Movies/Us.jpg" class="MovieImg" />
+        </div>
+        <div class="Movpara">
+          <h2 class="HeadMov">Details</h2>
+          <p class="movdetail">
+            <span style="font-weight: 400; color: #b3bc36">Director:</span>
+            Jordan Peele
+          </p>
+          <p class="movdetail">
+            <span style="font-weight: 400; color: #b3bc36">Genre:</span>
+            Horror, Mystery, Thriller, Psychological horror
+          </p>
+          <p class="movdetail">
+            <span style="font-weight: 400; color: #b3bc36">Release dates:</span>
+            March 22, 2019
+          </p>
+          <p class="movdetail">
+            <span style="font-weight: 400; color: #b3bc36">Running time:</span>
+            116 minutes
+          </p>
+          <p class="movdetail">
+            <span style="font-weight: 400; color: #b3bc36">Rate:</span> Rated
+            R for violence/terror, and language.
+          </p>
+          <h2 class="HeadMov">Description</h2>
+          <p class="ParaMov">
+            In 1986, a young girl named Adelaide “Addy” Thomas watches a
+            commercial for Hands Across America. One night at the Santa Cruz
+            Beach Boardwalk, she wanders away from her parents and enters a
+            funhouse, where she encounters a doppelgänger of herself in the
+            house of mirrors. Following the encounter she stops speaking and
+            withdraws from her family.
+          </p>
+          <input class="BuyBtn" type="button" value="Buy a ticket" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="Filmm" style="display: flex; justify-content: center; align-items: center">
+    <div class="mmm" style="
+          padding-top: 50px;
+          margin-top: 50px;
+          background-color: #2e0301;
+          border-radius: 50px;
+          width: 87%;
+          align-self: center;
+        ">
+      <h1 class="FilmHeader">THE SILENCE OF THE LAMBS</h1>
+      <div class="Fu">
+        <div class="Movies">
+          <img src="./images/Movies/TSOTL.jpg" class="MovieImg" />
+        </div>
+        <div class="Movpara">
+          <h2 class="HeadMov">Details</h2>
+          <p class="movdetail">
+            <span style="font-weight: 400; color: #b3bc36">Director:</span>
+            Jonathan Demme
+          </p>
+          <p class="movdetail">
+            <span style="font-weight: 400; color: #b3bc36">Genre:</span>
+            Horror, Thriller, Psychological thriller, Crime film,
+            Psychological horror, Neo-noir, Mystery, Drama
+          </p>
+          <p class="movdetail">
+            <span style="font-weight: 400; color: #b3bc36">Release dates:</span>
+            February 14, 1991
+          </p>
+          <p class="movdetail">
+            <span style="font-weight: 400; color: #b3bc36">Running time:</span>
+            118 minutes
+          </p>
+          <p class="movdetail">
+            <span style="font-weight: 400; color: #b3bc36">Rate:</span> Rated
+            R for strong violence including a man being beaten to death with a
+            baton and another having his face bitten into. There are also
+            strong verbal descriptions of the activities of serial killers.
+          </p>
+          <h2 class="HeadMov">Description</h2>
+          <p class="ParaMov">
+            TClarice Starling, an FBI trainee, is pulled from her regimen at
+            the Quantico FBI Academy by her boss, Jack Crawford. He assigns
+            her to interview Hannibal Lecter, an incarcerated former
+            psychiatrist and cannibalistic serial killer, on the pretense of
+            persuading Lecter to answer a questionnaire about himself for the
+            Bureau's psychological profiles, but secretly hoping to gain his
+            insights about a psychopath serial killer nicknamed "Buffalo
+            Bill," who kills young women and removes their skin from their
+            bodies.
+          </p>
+          <input class="BuyBtn" type="button" value="Buy a ticket" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="Filmm" style="display: flex; justify-content: center; align-items: center">
+    <div class="mmm" style="
+          padding-top: 50px;
+          margin-top: 50px;
+          background-color: #2e0301;
+          border-radius: 50px;
+          width: 87%;
+          align-self: center;
+        ">
+      <h1 class="FilmHeader">SHUTTER ISLAND</h1>
+      <div class="Fu">
+        <div class="Movies">
+          <img src="./images/Movies/Shutter.jpg" class="MovieImg" />
+        </div>
+        <div class="Movpara">
+          <h2 class="HeadMov">Details</h2>
+          <p class="movdetail">
+            <span style="font-weight: 400; color: #b3bc36">Director:</span>
+            Martin Scorsese
+          </p>
+          <p class="movdetail">
+            <span style="font-weight: 400; color: #b3bc36">Genre:</span>
+            Thriller, Horror, Psychological thriller, Mystery, Neo-noir, Drama
+          </p>
+          <p class="movdetail">
+            <span style="font-weight: 400; color: #b3bc36">Release dates:</span>
+            February 13, 2010
+          </p>
+          <p class="movdetail">
+            <span style="font-weight: 400; color: #b3bc36">Running time:</span>
+            139 minutes
+          </p>
+          <p class="movdetail">
+            <span style="font-weight: 400; color: #b3bc36">Rate:</span> Rated
+            R by the MPAA for disturbing violent content, language and some
+            nudity.
+          </p>
+          <h2 class="HeadMov">Description</h2>
+          <p class="ParaMov">
+            In 1954, U.S. Marshal Edward "Teddy" Daniels and his new partner
+            Chuck Aule travel to Ashecliffe Hospital for the criminally insane
+            on Shutter Island, Boston Harbor to investigate the disappearance
+            of Rachel Solando, a patient of the hospital who had previously
+            drowned her three children.
+          </p>
+          <input class="BuyBtn" type="button" value="Buy a ticket" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="Filmm" style="display: flex; justify-content: center; align-items: center">
+    <div class="mmm" style="
+          padding-top: 50px;
+          margin-top: 50px;
+          background-color: #2e0301;
+          border-radius: 50px;
+          width: 87%;
+          align-self: center;
+        ">
+      <h1 class="FilmHeader">AMERICAN PSYCHO</h1>
+      <div class="Fu">
+        <div class="Movies">
+          <img src="./images/Movies/AmericaPsycho.jpg" class="MovieImg" />
+        </div>
+        <div class="Movpara">
+          <h2 class="HeadMov">Details</h2>
+          <p class="movdetail">
+            <span style="font-weight: 400; color: #b3bc36">Director:</span>
+            Mary Harron
+          </p>
+          <p class="movdetail">
+            <span style="font-weight: 400; color: #b3bc36">Genre:</span>
+            Horror, Thriller, Comedy, Slasher, Satire, Psychological thriller,
+            Dark comedy, Drama, Mystery, Comedy horror, Crime Fiction
+          </p>
+          <p class="movdetail">
+            <span style="font-weight: 400; color: #b3bc36">Release dates:</span>
+            January 21, 2000
+          </p>
+          <p class="movdetail">
+            <span style="font-weight: 400; color: #b3bc36">Running time:</span>
+            101 minutes
+          </p>
+          <p class="movdetail">
+            <span style="font-weight: 400; color: #b3bc36">Rate:</span> Rated
+            NC-17 for a scene featuring Bateman having a threesome with two
+            prostitutes. The producers excised approximately 18 seconds of
+            footage to obtain an R-rated version of the film.
+          </p>
+          <h2 class="HeadMov">Description</h2>
+          <p class="ParaMov">
+            In 1987, Patrick Bateman, a young and wealthy New York City
+            investment banker, spends most of his time dining at popular
+            restaurants while keeping up appearances for his fiancée Evelyn
+            Williams and his circle of wealthy associates, most of whom he
+            hates. At a business meeting, Bateman and his associates flaunt
+            their business cards, obsessing over their designs. Enraged by the
+            superiority of his colleague Paul Allen's card, Bateman finds a
+            homeless man and his dog in an alley at night and kills them.
+          </p>
+          <input class="BuyBtn" type="button" value="Buy a ticket" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="Filmm" style="display: flex; justify-content: center; align-items: center">
+    <div class="mmm" style="
+          padding-top: 50px;
+          margin-top: 50px;
+          background-color: #2e0301;
+          border-radius: 50px;
+          width: 87%;
+          align-self: center;
+        ">
+      <h1 class="FilmHeader">HAPPY DEATH DAY 2U</h1>
+      <div class="Fu">
+        <div class="Movies">
+          <img src="./images/Movies/HDD.jpg" class="MovieImg" />
+        </div>
+        <div class="Movpara">
+          <h2 class="HeadMov">Details</h2>
+          <p class="movdetail">
+            <span style="font-weight: 400; color: #b3bc36">Director:</span>
+            Christopher Landon
+          </p>
+          <p class="movdetail">
+            <span style="font-weight: 400; color: #b3bc36">Genre:</span>
+            Slasher, Thriller, Mystery
+          </p>
+          <p class="movdetail">
+            <span style="font-weight: 400; color: #b3bc36">Release dates:</span>
+            February 13, 2019
+          </p>
+          <p class="movdetail">
+            <span style="font-weight: 400; color: #b3bc36">Running time:</span>
+            100 minutes
+          </p>
+          <p class="movdetail">
+            <span style="font-weight: 400; color: #b3bc36">Rate:</span> Rated
+            PG-13 for violence, language, sexual material and thematic
+            elements.
+          </p>
+          <h2 class="HeadMov">Description</h2>
+          <p class="ParaMov">
+            Tree wakes up in Carter's room on September 18 and relives her
+            original time loop, but she soon realizes things are different
+            after discovering that Carter is now dating a different (yet still
+            annoying) Danielle. Ryan theorizes that the reactor caused Tree to
+            drift into another dimension. When Tree learns her mother is still
+            alive in this new reality, she wants to stay.
+          </p>
+          <input class="BuyBtn" type="button" value="Buy a ticket" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="Filmm" style="display: flex; justify-content: center; align-items: center">
+    <div class="mmm" style="
+          padding-top: 50px;
+          margin-top: 50px;
+          background-color: #2e0301;
+          border-radius: 50px;
+          width: 87%;
+          align-self: center;
+        ">
+      <h1 class="FilmHeader">FRIDAY THE 13TH (1980)</h1>
+      <div class="Fu">
+        <div class="Movies">
+          <img src="./images/Movies/FT13.jpg" class="MovieImg" />
+        </div>
+        <div class="Movpara">
+          <h2 class="HeadMov">Details</h2>
+          <p class="movdetail">
+            <span style="font-weight: 400; color: #b3bc36">Director:</span>
+            Sean S. Cunningham
+          </p>
+          <p class="movdetail">
+            <span style="font-weight: 400; color: #b3bc36">Genre:</span>
+            Horror, Mystery, Slasher, Cult film, Teen
+          </p>
+          <p class="movdetail">
+            <span style="font-weight: 400; color: #b3bc36">Release dates:</span>
+            May 9, 1980
+          </p>
+          <p class="movdetail">
+            <span style="font-weight: 400; color: #b3bc36">Running time:</span>
+            95 minutes
+          </p>
+          <p class="movdetail">
+            <span style="font-weight: 400; color: #b3bc36">Rate:</span> Rated
+            R for some gratuitous sexual content includes brief female nudity
+            and moaning during a sex scene, a flashback scene in which two
+            characters are seemingly on the verge of having sex when they are
+            killed, characters play a game of "strip Monopoly," and talk of
+            sex throughout.
+          </p>
+          <h2 class="HeadMov">Description</h2>
+          <p class="ParaMov">
+            In 1958 at Camp Crystal Lake, counselors Barry Jackson and
+            Claudette Hayes sneak inside a storage cabin to have sex, where an
+            unseen assailant murders them. In the present day, camp counselor
+            and cook Annie Phillips is driven halfway to the reopened Camp
+            Crystal Lake by Enos, a truck driver, despite warnings from
+            elderly Crazy Ralph, and disgusted reactions from the townspeople.
+            While driving, Enos warns Annie about the camp's troubled past,
+            beginning when a young boy drowned in Crystal Lake in 1957.
+          </p>
+          <input class="BuyBtn" type="button" value="Buy a ticket" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="Filmm" style="display: flex; justify-content: center; align-items: center">
+    <div class="mmm" style="
+          padding-top: 50px;
+          margin-top: 50px;
+          background-color: #2e0301;
+          border-radius: 50px;
+          width: 87%;
+          align-self: center;
+        ">
+      <h1 class="FilmHeader">SMILE</h1>
+      <div class="Fu">
+        <div class="Movies">
+          <img src="./images/Movies/Smile.jpg" class="MovieImg" />
+        </div>
+        <div class="Movpara">
+          <h2 class="HeadMov">Details</h2>
+          <p class="movdetail">
+            <span style="font-weight: 400; color: #b3bc36">Director:</span>
+            Parker Finn
+          </p>
+          <p class="movdetail">
+            <span style="font-weight: 400; color: #b3bc36">Genre:</span>
+            Horror, Psychological horror
+          </p>
+          <p class="movdetail">
+            <span style="font-weight: 400; color: #b3bc36">Release dates:</span>
+            September 28, 2022
+          </p>
+          <p class="movdetail">
+            <span style="font-weight: 400; color: #b3bc36">Running time:</span>
+            115 minutes
+          </p>
+          <p class="movdetail">
+            <span style="font-weight: 400; color: #b3bc36">Rate:</span> Rated
+            R for strong violent content and grisly images, and language.
+          </p>
+          <h2 class="HeadMov">Description</h2>
+          <p class="ParaMov">
+            At a psychiatric ward, therapist Dr. Rose Cotter meets graduate
+            student Laura Weaver, who explains that she recently witnessed her
+            professor die by suicide. Laura claims she is being terrorized by
+            an invisible entity which appears as various smiling people and
+            has foretold her death. Laura begins screaming and panicking and
+            Rose calls for help. Laura suddenly becomes unnaturally calm and
+            smiles, then slits her own throat, terrifying Rose.
+          </p>
+          <input class="BuyBtn" type="button" value="Buy a ticket" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="Filmm" style="display: flex; justify-content: center; align-items: center">
+    <div class="mmm" style="
+          padding-top: 50px;
+          margin-top: 50px;
+          background-color: #2e0301;
+          border-radius: 50px;
+          width: 87%;
+          align-self: center;
+        ">
+      <h1 class="FilmHeader">INCANTATION (咒)</h1>
+      <div class="Fu">
+        <div class="Movies">
+          <img src="./images/Movies/Incantation.jpeg" class="MovieImg" />
+        </div>
+        <div class="Movpara">
+          <h2 class="HeadMov">Details</h2>
+          <p class="movdetail">
+            <span style="font-weight: 400; color: #b3bc36">Director:</span>
+            Kevin Ko
+          </p>
+          <p class="movdetail">
+            <span style="font-weight: 400; color: #b3bc36">Genre:</span>
+            Metal
+          </p>
+          <p class="movdetail">
+            <span style="font-weight: 400; color: #b3bc36">Release dates:</span>
+            March 18, 2022
+          </p>
+          <p class="movdetail">
+            <span style="font-weight: 400; color: #b3bc36">Running time:</span>
+            111 minutes
+          </p>
+          <p class="movdetail">
+            <span style="font-weight: 400; color: #b3bc36">Rate:</span> Rated
+            R for showcasing gore and body horror, as well as disturbing
+            religious motifs.
+          </p>
+          <h2 class="HeadMov">Description</h2>
+          <p class="ParaMov">
+            A woman named Li Ronan narrates the film, imploring the viewer to
+            memorize an insignia and chant an incantation to send blessings
+            and lift a curse on her six-year-old daughter, Dodo. The insignia
+            and incantation are interspersed frequently throughout the film to
+            encourage the viewer to pray along. The events of the film are
+            shown as a found footage in a non-linear manner.
+          </p>
+          <input class="BuyBtn" type="button" value="Buy a ticket" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="Filmm" style="display: flex; justify-content: center; align-items: center">
+    <div class="mmm" style="
+          padding-top: 50px;
+          margin-top: 50px;
+          background-color: #2e0301;
+          border-radius: 50px;
+          width: 87%;
+          align-self: center;
+        ">
+      <h1 class="FilmHeader">DON'T BREATHE</h1>
+      <div class="Fu">
+        <div class="Movies">
+          <img src="./images/Movies/DontBreathe.jpg" class="MovieImg" />
+        </div>
+        <div class="Movpara">
+          <h2 class="HeadMov">Details</h2>
+          <p class="movdetail">
+            <span style="font-weight: 400; color: #b3bc36">Director:</span>
+            Fede Álvarez
+          </p>
+          <p class="movdetail">
+            <span style="font-weight: 400; color: #b3bc36">Genre:</span>
+            Horror, Thriller, Slasher, Crime film
+          </p>
+          <p class="movdetail">
+            <span style="font-weight: 400; color: #b3bc36">Release dates:</span>
+            March 12, 201
+          </p>
+          <p class="movdetail">
+            <span style="font-weight: 400; color: #b3bc36">Running time:</span>
+            88 minutes
+          </p>
+          <p class="movdetail">
+            <span style="font-weight: 400; color: #b3bc36">Rate:</span> Rated
+            R for terror, violence, disturbing content, and language including
+            sexual references. Violence: - Frequent explicit violence. -
+            Portrayal of sexual violence, with no nudity or detail.
+          </p>
+          <h2 class="HeadMov">Description</h2>
+          <p class="ParaMov">
+            Rocky, Alex, and Money are three Detroit delinquents who make a
+            living by breaking into houses and stealing valuables. Rocky longs
+            to move to California with her younger sister, Diddy, and escape
+            from their abusive mother and her alcoholic boyfriend. To the
+            trio's frustration, their fence keeps undervaluing the items they
+            bring. Money receives a tip from their fence that Gulf War veteran
+            Norman Nordstrom has $300,000 in cash in his house in an abandoned
+            Detroit neighborhood. The cash was reportedly a settlement after a
+            wealthy young woman, Cindy Roberts, killed Norman's daughter in a
+            car accident. The three spy on the house and learn that Norman is
+            blind.
+          </p>
+          <input class="BuyBtn" type="button" value="Buy a ticket" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr class="line-other" style="
+        background-color: gold;
+        margin: 0px;
+        width: 100%;
+        height: 10px;
+        border: 0px;
+      " />
+  <div class="footer">
+    <div class="credit" style="margin-top: 30px">
+      <h2 class="footerbrand" style="text-align: center">AE</h2>
+      <h5 style="margin: 0px; font-weight: 200">network</h5>
+    </div>
+    <h5 style="margin: 0px; font-weight: 200; margin: 20px">
+      OUR FAMILY OF BRANDS
+    </h5>
+    <hr style="width: 75%; background-color: #dedcdc; height: 1px; border: 0px" />
+
+    <div class="others">
+      <div class="History" style="margin-right: 50px; margin-top: 20px">
+        <ul>
+          <li class="items-other">
+            <a href="" class="iteams-other-other">History Education</a>
+          </li>
+          <li class="items-other">
+            <a href="" class="iteams-other-other">History Vault</a>
+          </li>
+          <li class="items-other">
+            <a href="" class="iteams-other-other">Mobile/Apps</a>
+          </li>
+          <li class="items-other">
+            <a href="" class="iteams-other-other">News</a>
+          </li>
+          <li class="items-other">
+            <a href="" class="iteams-other-other">Shop</a>
+          </li>
+          <li class="items-other">
+            <a href="" class="iteams-other-other">Share your opinion</a>
+          </li>
+          <i class="fa fa-facebook" style="margin: 5px; color: black" aria-hidden="true"
+            style="border: 1px; border-radius: 50px; color: black"></i><i class="fa fa-twitter"
+            style="margin: 5px; color: black" aria-hidden="true"></i><i class="fa fa-youtube-play"
+            style="margin: 5px; color: black" aria-hidden="true"></i><i class="fa fa-instagram"
+            style="margin: 5px; color: black" aria-hidden="true"></i>
+        </ul>
+      </div>
+      <div class="Bio">
+        <div class="Upper">
+          <ul class="Listt">
+            <li class="items-other">
+              <a href="" class="iteams-other-other">Biography</a>
+            </li>
+            <li class="items-other">
+              <a href="" class="iteams-other-other">Crime and Investigation</a>
+            </li>
+          </ul>
+
+          <ul class="Listt">
+            <li class="items-other">
+              <a href="" class="iteams-other-other">History en Espagnol</a>
+            </li>
+            <li class="items-other">
+              <a href="" class="iteams-other-other">LRW</a>
+            </li>
+          </ul>
+
+          <ul class="Listt">
+            <li class="items-other">
+              <a href="" class="iteams-other-other">Military School</a>
+            </li>
+          </ul>
+        </div>
+        <hr style="
+              width: 550px;
+              background-color: #dedcdc;
+              height: 1px;
+              border: 0px;
+              margin-top: 30px;
+            " />
+        <div class="Bottom">
+          <ul class="Listt">
+            <li class="items-other">
+              <a href="" class="iteams-other-other">Ad Choices</a>
+            </li>
+            <li class="items-other">
+              <a href="" class="iteams-other-other">Advertise WIth Us</a>
+            </li>
+            <li class="items-other">
+              <a href="" class="iteams-other-other">Accessibility Support</a>
+            </li>
+            <li class="items-other">
+              <a href="" class="iteams-other-other">Copyright Policy</a>
+            </li>
+          </ul>
+
+          <ul class="Listt">
+            <li class="items-other">
+              <a href="" class="iteams-other-other">Corporate Information</a>
+            </li>
+            <li class="items-other">
+              <a href="" class="iteams-other-other">Employment Opportunities</a>
+            </li>
+            <li class="items-other">
+              <a href="" class="iteams-other-other">FAQ/Contact Us</a>
+            </li>
+            <li class="items-other">
+              <a href="" class="iteams-other-other">Privacy Notice</a>
+            </li>
+          </ul>
+
+          <ul class="Listt">
+            <li class="items-other">
+              <a href="" class="iteams-other-other">Cookie Notice</a>
+            </li>
+            <li class="items-other">
+              <a href="" class="iteams-other-other">Terms Of Use</a>
+            </li>
+            <li class="items-other">
+              <a href="" class="iteams-other-other">TV Parental Guidelines</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="hidden_others">
+      <ul class="hidden_list">
+        <li class="hidden_list_items"><a href="." class="hidden_list_items_a">Contact Us</a></li>
+        <hr class="hidden_line">
+        <li class="hidden_list_items"><a href="." class="hidden_list_items_a">Copyright Policy</a></li>
+        <hr class="hidden_line">
+        <li class="hidden_list_items"><a href="." class="hidden_list_items_a">Privacy Policy</a></li>
+        <hr class="hidden_line">
+        <li class="hidden_list_items"><a href="." class="hidden_list_items_a">Terms of Use</a></li>
+        <hr class="hidden_line">
+        <li class="hidden_list_items"><a href="." class="hidden_list_items_a">Ad Choices</a></li>
+        <hr class="hidden_line">
+        <li class="hidden_list_items"><a href="." class="hidden_list_items_a">Accessibility Support</a></li>
+      </ul>
+    </div>
+
+    <div class="Copyright">
+      <h4 class="Copyright">
+        © 2023, A&E Television Networks, LLC. All Rights Reserved.
+      </h4>
+    </div>
+  </div>
+
+  <script src="./movie.js"></script>
+</body>
+
+</html>

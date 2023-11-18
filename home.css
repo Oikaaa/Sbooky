@@ -1,0 +1,1104 @@
+.nav-list {
+  display: flex;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.navigator {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: #261d2b;
+  height: 60px;
+}
+
+.nav-logo:hover {
+  cursor: pointer;
+}
+
+.nav-logo {
+  color: #fff;
+  padding: 20px 10px 0px 10px;
+  font-size: 25px;
+}
+
+.nav-items {
+  color: white;
+}
+
+.search {
+  text-align: center;
+  display: flex;
+  height: 20px;
+  width: 70px;
+  padding: 20px 30px;
+  color: white;
+}
+
+.nav-items a {
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  height: 30px;
+  width: 50px;
+  padding: 20px 30px;
+}
+
+.article {
+  display: flex;
+  width: 100%;
+  padding: 200px 0px;
+}
+
+.Cusarticle {
+  width: 80%;
+  padding: 200px 100px;
+}
+
+.paragraph {
+  color: white;
+  font-size: 23px;
+  width: 100%;
+}
+
+.header {
+  color: orange;
+  font-size: 90px;
+  width: 100%;
+  margin: 0px;
+}
+
+.AboutImg {
+  width: 520px;
+  border-radius: 50px;
+  align-self: center;
+}
+
+.Hispara {
+  width: 45%;
+  padding-right: 100px;
+}
+
+.hisimagediv {
+  width: 55%;
+  padding: 0px 50px 0px 100px;
+}
+
+.para {
+  width: 50%;
+  flex-wrap: wrap;
+  padding: 0px 100px;
+  align-self: center;
+}
+
+.semi-header {
+  color: #b3bc36;
+  margin: 10px 0px;
+  font-size: 40px;
+}
+
+.paragraph {
+  font-weight: 200;
+}
+
+.HisImg {
+  border-radius: 30px;
+  border-width: 10px;
+  border-style: outset;
+  width: 600px;
+}
+
+.paragraphh {
+  color: white;
+  font-size: 23px;
+  font-weight: 200;
+  width: 100%;
+}
+
+.morebtn {
+  width: 250px;
+  height: 50px;
+  border-radius: 25px;
+  font-size: 23px;
+  font-family: "Josefin Sans", sans-serif;
+  background-color: orange;
+  color: white;
+  margin: 50px;
+  border: 0px;
+}
+
+.BuyBtn {
+  background-color: orange;
+  width: 250px;
+  height: 50px;
+  border-radius: 50px;
+  border: none;
+  color: white;
+  font-size: 19px;
+  font-family: "Josefin Sans", sans-serif;
+  margin-top: 50px;
+}
+
+.BuyBtn:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+
+.morebtn:hover {
+  cursor: pointer;
+  color: black;
+  background-color: white;
+}
+
+.nav-items:hover {
+  .items {
+    color: black;
+  }
+  background-color: white;
+  cursor: pointer;
+}
+
+.slide {
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #14091a;
+  margin-top: 10px;
+}
+
+.current {
+  background-color: white;
+  color: black;
+}
+
+.btn {
+  color: white;
+  font-size: 30px;
+  padding: 20px;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.next {
+  font-size: 30px;
+  background-color: #14091a;
+  border-style: none;
+  height: 70px;
+  width: 50px;
+  color: white;
+}
+
+.next:hover {
+  background-color: white;
+  cursor: pointer;
+  color: black;
+}
+
+.prev {
+  font-size: 30px;
+  background-color: #14091a;
+  border-style: none;
+  height: 70px;
+  width: 50px;
+  color: white;
+}
+
+.prev:hover {
+  background-color: white;
+  cursor: pointer;
+  color: black;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0px 2px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.current {
+  background-color: white;
+}
+
+.dot:hover {
+  background-color: white;
+}
+
+.listOfSlide {
+  display: flex;
+  align-self: center;
+}
+
+.Slide-item {
+  list-style: none;
+  padding: 15px;
+  font-size: 23px;
+  height: 18px;
+}
+
+.nav-items:hover {
+  .fa {
+    color: black;
+  }
+  background-color: white;
+  cursor: pointer;
+}
+
+.nav-items-bars:hover {
+  background-color: brown;
+}
+
+.nav-items-bars {
+  color: white;
+  cursor: pointer;
+}
+
+.Cusimage {
+  width: 700px;
+  border-radius: 50px;
+  padding: 20px 0px;
+}
+
+.Gallery {
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.formSignUp {
+  background-color: whitesmoke;
+  height: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.input {
+  height: 35px;
+  width: 400px;
+  font-size: 15px;
+}
+
+#form {
+  padding: 100px;
+}
+
+.FormHead {
+  font-size: 20px;
+  margin: 5px 0px;
+}
+
+.fa:hover {
+  cursor: pointer;
+}
+
+.Submit {
+  background-color: orange;
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+  width: 200px;
+  height: 50px;
+  margin-top: 10px;
+  font-size: 18px;
+  border: 0px;
+}
+
+.Submit:hover {
+  background-color: black;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: white;
+  width: 100%;
+  height: 600px;
+}
+
+.Cusparagraph {
+  padding-bottom: 20px;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 200;
+  padding: 0px 100px;
+}
+
+.CustomPara {
+  width: 100%;
+}
+
+.Cusheader {
+  color: orange;
+  font-size: 70px;
+  text-align: center;
+}
+
+.Cussemi-header {
+  color: #b3bc36;
+  font-size: 30px;
+  margin: 0px;
+  text-align: center;
+}
+
+.image {
+  width: 50%;
+}
+
+.CustomeImg {
+  width: 900px;
+  overflow: hidden;
+  align-self: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.CustomeeImg {
+  height: 500px;
+  overflow: hidden;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+}
+
+.He {
+  text-align: center;
+  color: orange;
+  font-size: 50px;
+}
+
+.spann {
+  color: white;
+  font-size: 68px;
+}
+
+.GalleryPara {
+  color: white;
+  text-align: center;
+  font-weight: 200;
+  padding: 0px 300px;
+  font-size: 18px;
+  justify-content: center;
+}
+
+.Gal {
+  width: 600px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+.MovieImg {
+  width: 450px;
+  border-radius: 20px;
+  padding: 25px 0px 100px 100px;
+}
+
+.TurnBtn {
+  height: 35px;
+  width: 40px;
+  font-size: 18px;
+  align-self: center;
+  text-align: center;
+  border: 0px;
+  background-color: white;
+}
+
+.TurnBtn:hover {
+  background-color: #b5b5b5;
+  cursor: pointer;
+}
+
+.line {
+  background-color: gold;
+  width: 50%;
+  height: 1px;
+  padding: 0px;
+  border: 0px;
+}
+
+.FormHeader {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.input {
+  border: 1px;
+  border-color: black;
+}
+
+.footerbrand {
+  margin: 0px;
+}
+
+.credit {
+  font-size: 30px;
+}
+
+.Movpara {
+  color: white;
+  padding: 25px 0px;
+  width: 600px;
+}
+
+.ParaMov {
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.others {
+  display: flex;
+}
+
+.Upper {
+  display: flex;
+  height: 50px;
+  padding: 0px;
+}
+
+.Bio {
+  display: flex;
+  flex-direction: column;
+}
+
+.HeadMov {
+  color: goldenrod;
+  font-size: 35px;
+}
+
+.movdetail {
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.FilmHeader {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+
+.Bottom {
+  display: flex;
+}
+
+.mmm {
+  padding-top: 50px;
+  margin-top: 50px;
+  background-color: #261d2b;
+  border-radius: 50px;
+  width: 87%;
+  align-self: center;
+  height: 900px;
+}
+
+.Listt {
+  height: 50px;
+}
+
+.items-other a {
+  text-decoration: none;
+  color: black;
+}
+
+.items-other {
+  list-style: none;
+  font-weight: 300;
+  margin: 10px 0px;
+}
+
+.Movies {
+  display: flex;
+  width: 50%;
+}
+
+.TurnBtnn {
+  height: 35px;
+  width: 40px;
+  font-size: 18px;
+  align-self: center;
+  text-align: center;
+  margin: 40px;
+  background-color: white;
+  padding: 10px;
+}
+
+.TurnBtnn:hover {
+  background-color: #b5b5b5;
+  cursor: pointer;
+  border: 0px;
+}
+
+.hidden_others {
+  display: none;
+}
+
+.hidden_list {
+  display: flex;
+}
+
+.hidden_line {
+  background-color: #b5b5b5;
+  border: 0px;
+  width: 1px;
+}
+
+.hidden_list_items {
+  list-style: none;
+  padding: 10px;
+}
+
+.hidden_list_items a {
+  text-decoration: none;
+  color: black;
+  font-weight: 200;
+}
+
+.NaviMobile {
+  width: 110px;
+  height: 224px;
+  background-color: white;
+  position: fixed;
+  top: 60px;
+  display: none;
+}
+
+.nav-list-mobile {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.nav-items-mobile a {
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  height: 10px;
+  width: 50px;
+  padding: 23px 30px;
+}
+
+.nav-items-mobile a :hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+.nav-items-mobile :hover {
+  background-color: goldenrod;
+  color: white;
+}
+
+.his_art {
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.CustomeeImg {
+  width: auto;
+  height: 100%;
+}
+
+.Copyright {
+  font-weight: 200;
+  font-size: 13px;
+  margin: 20px;
+}
+
+.Alt {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .Nav_Home {
+    display: none;
+  }
+  .Nav_Movies {
+    display: none;
+  }
+  .Nav_Shop {
+    display: none;
+  }
+  .Nav_More {
+    display: none;
+  }
+
+  .article {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ParaMov {
+    font-size: 16px;
+  }
+
+  .hidden_others {
+    display: block;
+  }
+
+  .hidden_list {
+    flex-wrap: wrap;
+  }
+
+  .hidden_line {
+    margin: 5px;
+  }
+
+  .MoreButton {
+    display: flex;
+    justify-content: center;
+  }
+
+  .morebtn {
+    height: 40px;
+    width: 200px;
+    font-size: 20px;
+  }
+
+  .paragraphh {
+    font-size: 16px;
+  }
+
+  .others {
+    display: none;
+  }
+
+  .AboutImg {
+    width: 100%;
+  }
+
+  .image {
+    width: 90%;
+  }
+
+  .HisImg {
+    width: 100%;
+    padding: 0px;
+  }
+
+  .hisimagediv {
+    padding: 0px;
+    width: 80%;
+  }
+
+  .Hispara {
+    padding: 0px;
+    width: 80%;
+  }
+
+  .para {
+    padding: 0px;
+    width: 80%;
+  }
+
+  .paragraph {
+    font-size: 16px;
+  }
+
+  .MovieImg {
+    padding: 0px;
+    width: 100%;
+  }
+
+  .Movies {
+    width: 80%;
+  }
+
+  .header {
+    font-size: 70px;
+  }
+
+  .Cusimage {
+    width: 100%;
+  }
+
+  .Cusdiv {
+    width: 90%;
+  }
+
+  .Cusparagraph {
+    font-size: 16px;
+    padding: 0px;
+  }
+
+  .Cusheader {
+    margin: 0px;
+  }
+
+  #hidden {
+    width: 80%;
+    height: 1200px;
+  }
+
+  .nnn {
+    width: 27px;
+    height: 27px;
+    font-size: 13px;
+  }
+
+  #hidden1 {
+    width: 80%;
+    height: 1400px;
+  }
+
+  #active {
+    width: 80%;
+    height: 1100px;
+  }
+
+  .Movies {
+    width: 80%;
+  }
+
+  .Alt {
+    display: block;
+  }
+
+  .MovieImg {
+    width: 100%;
+  }
+
+  .Movpara {
+    width: 90%;
+  }
+
+  .HeadMov {
+    font-size: 30px;
+  }
+
+  .formSignUp {
+    padding: 0px;
+  }
+
+  .input {
+    width: 300px;
+  }
+
+  #form {
+    padding: 0px;
+  }
+
+  .search {
+    display: none;
+  }
+}
+
+@media (max-width: 1140px) {
+  .his_art {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Hispara {
+    width: 90%;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hisimagediv {
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .Gal {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+  }
+
+  .CustomeImg {
+    width: 80%;
+  }
+
+  .CustomeeImg {
+    width: 100%;
+    height: auto;
+  }
+
+  .GalleryPara {
+    padding: 0px;
+    font-size: 16px;
+  }
+
+  .He {
+    font-size: 30px;
+  }
+
+  .MM {
+    height: 300px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .Movies {
+    width: 80%;
+  }
+
+  .MovieImg {
+    width: 100%;
+  }
+
+  .Movpara {
+    width: 90%;
+  }
+
+  .movdetail {
+    font-size: 16px;
+  }
+  .HeadMov {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .article_huhu {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 1300px) {
+  .mmmm {
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: center;
+  }
+
+  .MovieImg {
+    padding: 0px;
+  }
+
+  #Movie1 {
+    height: auto;
+  }
+  #Movie2 {
+    height: auto;
+  }
+  #Movie3 {
+    height: auto;
+  }
+  #Movie4 {
+    height: auto;
+  }
+  #Movie5 {
+    height: auto;
+  }
+  #Movie6 {
+    height: auto;
+  }
+  #Movie7 {
+    height: auto;
+  }
+  #Movie8 {
+    height: auto;
+  }
+  #Movie9 {
+    height: auto;
+  }
+  #Movie10 {
+    height: auto;
+  }
+
+  .mmm {
+    height: auto;
+  }
+
+  .formSignUp {
+    justify-content: center;
+  }
+
+  .formSignUp {
+    padding: 0px;
+  }
+
+  .FormImg {
+    display: none;
+  }
+}
+
+#Movie2 {
+  display: none;
+}
+
+#Movie3 {
+  display: none;
+}
+
+#Movie4 {
+  display: none;
+}
+
+#Movie5 {
+  display: none;
+}
+
+#Movie6 {
+  display: none;
+}
+
+#Movie7 {
+  display: none;
+}
+
+#Movie8 {
+  display: none;
+}
+
+#Movie9 {
+  display: none;
+}
+
+#Movie10 {
+  display: none;
+}
+
+.menu {
+  height: 180px;
+  width: 150px;
+  background-color: white;
+  position: fixed;
+  top: 60px;
+  display: none;
+  right: 0px;
+}
+
+.menu_signin {
+  width: 100%;
+}
+
+.SignIn_text > h4 {
+  margin: 0px;
+  padding: 10px;
+  font-weight: 300;
+}
+
+.menu_son:hover {
+  cursor: pointer;
+  background-color: #e5e5e5;
+}
+
+.movie_art {
+  padding-bottom: 100px;
+}
+
+.Modal_SignIn_Form {
+  position: fixed;
+  height: 1080px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: none;
+}
+
+.Modal_content {
+  position: fixed;
+  background-color: white;
+  opacity: 1.4;
+  height: 450px;
+  width: 400px;
+  top: 50%;
+  left: 50%;
+  margin-top: -250px;
+  margin-left: -200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Sign_text_content {
+  text-align: center;
+}
+
+.input_signin {
+  border-style: none;
+  height: 50px;
+  margin: 0px;
+  font-size: 17px;
+}
+
+.Submit_Modal {
+  height: 50px;
+  border-style: none;
+  margin-top: 30px;
+  background-color: goldenrod;
+  color: white;
+  font-size: 20px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.Submit_Modal:hover {
+  cursor: pointer;
+  background-color: #14091a;
+}
+
+.SignIn_Form {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.line_modal {
+  width: 100%;
+  margin: 0px;
+}
+
+.line_modal_other {
+  width: 100%;
+}
+
+.other_form {
+  text-align: center;
+  margin: 15px 0px;
+  font-weight: 200;
+  font-size: 15px;
+}
+
+.faaaaa {
+  color: grey;
+  font-size: 20px;
+}
+
+.faaaaa:hover {
+  cursor: pointer;
+}
+
+.hoverable {
+  color: goldenrod;
+}
+
+.hoverable:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+html {
+  scroll-behavior: smooth;
+}

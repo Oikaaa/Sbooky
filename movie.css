@@ -1,0 +1,696 @@
+.nav-list{
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.navigator{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    height: 60px;
+}
+
+.nav-logo:hover{
+    cursor: pointer;
+}
+
+.search{
+    text-align: center;
+    display: flex;
+    height: 20px;
+    width: 70px;
+    padding: 20px 30px;
+    color: white;
+}
+
+.nav-logo{
+    color: #fff;
+    padding: 20px 10px 0px 10px;
+    font-size: 25px;
+}
+
+.nav-items{
+    color: white;
+}
+
+.nav-items a {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    height: 20px;
+    width: 50px;
+    padding: 20px 30px;
+}
+
+.nav-items:hover{
+    .items{
+        color: black;
+    }
+    background-color: white;
+    cursor: pointer;
+}
+
+.nav-items:hover{
+    .fa{
+        color: black;
+    }
+    background-color: white;
+    cursor: pointer;
+}
+
+.nav-items-bars:hover{
+    background-color: brown;
+}
+
+.nav-items-bars{
+    color: white;
+    cursor: pointer;
+}
+
+.FilmHeader{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+.Movies{
+    display: flex;
+    width: 50%;
+}
+
+.MovieImg{
+    width: 450px;
+    border-radius: 20px;
+}
+
+.Movpara{
+    color: white;
+    padding: 25px 0px;
+    width: 600px;
+}
+
+.ParaMov{
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.movdetail{
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.BuyBtn{
+    background-color: orange;
+    width: 250px; 
+    height: 50px; 
+    border-radius: 50px; 
+    border: none; 
+    color: white; 
+    font-size: 19px; 
+    font-family: 'Josefin Sans', sans-serif; 
+    margin-top: 50px;
+}
+
+.BuyBtn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.HeadMov{
+    color: goldenrod;
+    font-size: 35px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.others{
+    display: flex;
+}
+
+.Upper{
+    display: flex;
+    height: 50px;
+    padding: 0px;
+}
+
+.Bio{
+    display: flex;
+    flex-direction: column;
+}
+
+.Bottom{
+    display: flex;
+}
+
+.Listt{
+    height: 50px;
+}
+
+.items-other a{
+    text-decoration: none;
+    color: black;
+}
+
+.items-other{
+    list-style: none;
+    font-weight: 300;
+    margin: 10px 0px;
+}
+
+.credit{
+    font-size: 30px;
+}
+
+.footerbrand{
+    margin: 0px;
+}
+
+.Copyright{
+    font-weight: 200;
+    font-size: 13px;
+    margin: 20px;
+}
+
+@media (max-width: 768px) {
+    .Nav_Movies{
+        display: none;
+    }
+    .Nav_Shop{
+        display: none;
+    }
+    .Nav_More{
+        display: none;
+    }
+    .search{
+        display: none;
+    }
+}
+
+.menu{
+    height: 36px;
+    width: 150px;
+    background-color: white;
+    position: fixed;
+    top: 60px;
+    display: none;
+    right: 0px;
+}
+
+.menu_signin{
+    width: 100%;
+}
+
+.SignIn_text > h4{
+    margin: 0px;
+    padding: 10px;
+    font-weight: 300;
+}
+
+.menu_son:hover{
+    cursor: pointer;
+    background-color: #e5e5e5;
+}
+
+.movie_art{
+    padding-bottom: 100px;
+}
+
+.Modal_SignIn_Form{
+    position: fixed;
+    height: 1080px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.4);
+    display: none;
+}
+
+.Modal_content{
+    position: fixed;
+    background-color: white;
+    opacity: 1.4;
+    height: 450px;
+    width: 400px;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px; 
+    margin-left: -200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Sign_text_content{
+    text-align: center;
+}
+
+.input_signin{
+    border-style: none;
+    height: 50px;
+    margin: 0px;
+    font-size: 17px;
+}
+
+.hidden_others{
+    display: none;
+}
+
+.hidden_list{
+    display: flex;
+
+}
+
+.hidden_line{
+    background-color:#b5b5b5;
+    border: 0px;
+    width: 1px;
+}
+
+.hidden_list_items{
+    list-style: none;
+    padding: 10px;
+}
+
+.hidden_list_items a {
+    text-decoration: none;
+    color: black;
+    font-weight: 200;
+}
+
+.Submit_Modal{
+    height: 50px;
+    border-style: none;
+    margin-top: 30px;
+    background-color: goldenrod;
+    color: white;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.SignIn_Form{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.line_modal{
+    width: 100%;
+    margin: 0px;
+}
+
+.line_modal_other{
+    width: 100%;
+}
+
+.other_form{
+    text-align: center;
+    margin: 15px 0px;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.faaaaa{
+    color: grey;
+    font-size: 20px;
+}
+
+.faaaaa:hover{
+    cursor: pointer;
+}
+
+.NaviMobile{
+    width: 110px;
+    height: 224px;
+    background-color: white;
+    position: fixed;
+    top: 60px;
+    left: 0px;
+}
+
+.nav-list-mobile{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav-items-mobile a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    height: 10px;
+    width: 50px;
+    padding: 23px 30px;
+}
+
+.nav-items-mobile a :hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.nav-items-mobile :hover{
+    background-color: goldenrod;
+    color: white;
+}
+
+
+.hoverable{
+    color: goldenrod;
+}
+
+.hoverable:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.Alt{
+    display: none;
+}
+
+.Fu{
+    display: flex;
+}
+
+.MovieImg{
+    padding: 25px 0px 100px 100px
+}
+
+@media (max-width: 800px) {
+    .Nav_Home{
+        display: none;
+    }
+    .Nav_Movies{
+        display: none;
+    }
+    .Nav_Shop{
+        display: none;
+    }
+    .Nav_More{
+        display: none;
+    }
+
+    .article{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .ParaMov{
+        font-size: 16px;
+    }
+
+    .hidden_others{
+        display: block;
+    }
+
+    .hidden_list{
+        flex-wrap: wrap;
+    }
+
+    .hidden_line{
+        margin: 5px;
+    }
+
+    .MoreButton{
+        display: flex;
+        justify-content: center;
+    }
+
+    .morebtn{
+        height: 40px;
+        width: 200px;
+        font-size: 20px;
+    }
+
+    .paragraphh{
+        font-size: 16px;
+    }
+
+    .others{
+        display: none;
+    }
+
+    .AboutImg{
+        width: 100%;
+    }
+
+    .image{
+        width: 90%;
+    }
+
+    .HisImg{
+        width: 100%;
+        padding: 0px;
+    }
+
+    .hisimagediv{
+        padding: 0px;
+        width: 80%;
+    }
+
+    .Hispara{
+        padding: 0px;
+        width: 80%;
+    }
+
+    .para{
+        padding: 0px;
+        width: 80%;
+    }
+
+    .paragraph{
+        font-size: 16px;
+    }
+
+    .MovieImg{
+        padding: 0px;
+        width: 100%;
+    }
+
+    .Movies{
+        width: 80%;
+    }
+
+    .header{
+        font-size: 70px;
+    }
+
+    .Cusimage{
+        width: 100%;
+    }
+
+    .Cusdiv{
+        width: 90%;
+    }
+
+    .Cusparagraph{
+        font-size: 16px;
+        padding: 0px;
+    }
+
+    .Cusheader{
+        margin: 0px;
+    }
+
+    #hidden{
+        width: 80%;
+        height: 1200px;
+    }
+
+    .nnn{
+        width: 27px;
+        height: 27px;
+        font-size: 13px;
+    }
+
+    #hidden1{
+        width: 80%;
+        height: 1400px;
+    }
+
+    #active{
+        width: 80%;
+        height: 1100px;
+    }
+
+    .Movies{
+        width: 80%;
+    }
+
+    .Alt{
+        display: block;
+    }
+
+    .MovieImg{
+        width: 100%;
+    }
+
+    .Movpara{
+        width: 90%;
+    }
+
+    .HeadMov{
+        font-size: 30px;
+    }
+
+    .formSignUp{
+        padding: 0px;
+    }
+
+    .input{
+        width: 300px;
+    }
+
+    #form{
+        padding: 0px;
+    }
+
+    .search{
+        display: none;
+    }
+}
+
+@media (max-width: 1140px) {
+    .his_art{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Hispara{
+        width: 90%;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hisimagediv{
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .Gal{
+        display: flex;
+        justify-content: center;
+        width: 90%;
+    }
+
+    .CustomeImg{
+        width: 80%;
+    }
+
+    .CustomeeImg{
+        width: 100%;
+        height: auto;
+    }
+
+    .GalleryPara{
+        padding: 0px;
+        font-size: 16px;
+    }
+
+    .He{
+        font-size: 30px;
+    }
+
+    .MM{
+        height: 300px;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    .Movies{
+        width: 80%;
+    }
+
+    .MovieImg{
+        width: 100%;
+    }
+
+    .Movpara{
+        width: 90%;
+    }
+
+    .movdetail{
+        font-size: 16px;
+    }
+    .HeadMov{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .Fu{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .MovieImg{
+        padding: 0px;
+    }
+
+    #Movie1{
+        height: 2000px;
+    }
+    #Movie2{
+        height: 2000px;
+    }
+    #Movie3{
+        height: 2000px;
+    }
+    #Movie4{
+        height: 2000px;
+    }
+    #Movie5{
+        height: 2000px;
+    }
+    #Movie6{
+        height: 2000px;
+    }
+    #Movie7{
+        height: 2000px;
+    }
+    #Movie8{
+        height: 2000px;
+    }
+    #Movie9{
+        height: 2000px;
+    }
+    #Movie10{
+        height: 2000px;
+    }
+
+    .mmm{
+        height: auto;
+    }
+
+    .formSignUp{
+        justify-content: center;
+    }
+
+    .formSignUp{
+        padding: 0px;
+    }
+
+    .FormImg{
+        display: none;
+    }
+}

@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sbooky! | Home</title>
+    <link rel="stylesheet" href="./home.css" />
+    <link rel="stylesheet" href="./fonticon/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&display=swap" rel="stylesheet">
+</head>
+
+<body style="font-family: 'Josefin Sans', sans-serif; background-color: #2a1e31; margin: 0px;">
+
+
+    <div class="navigator">
+        <ul class="nav-list">
+            <li id="hello" class="nav-items Alt"><a href="./index.html" class="items">Menu</a></li>
+            <li class="nav-items Nav_Home"><a href="./index.html" class="items">Home</a></li>
+            <li class="nav-items Nav_Movies"><a href="./movie.html" class="items">Movies</a></li>
+            <li class="nav-items Nav_Shop"><a href="./shop.html" class="items shop">Shop</a></li>
+            <li class="nav-items Nav_More"><a href="./more.html" class="items">More</a></li>
+        </ul>
+        <ul class="nav-list">
+            <li class="nav-logo">S<span style="color: orange;">BOO</span>KY!</li>
+        </ul>
+        <ul class="nav-list">
+            <li class="search nav-items "><i class="fa fa-search" aria-hidden="true"></i><span class="items">
+                    Search</span></li>
+            <li class="nav-items-bars" id="menu_nav" style="padding: 20px 30px 0px 30px;"><i class="fa fa-bars"
+                    aria-hidden="true"></i></li>
+        </ul>
+    </div>
+    <div id="menu" style="display: none;" class="menu">
+        <uL style="list-style: none; padding: 0px; margin: 0px;">
+            <li class="SignIn_text menu_signin menu_son" id="menu_signin">
+                <h4>SignIn</h4>
+            </li>
+            <hr style="margin: 0px; width: 100%;">
+            <li class="SignIn_text menu_son" id="Scroll_About">
+                <h4>About</h4>
+            </li>
+            <li class="SignIn_text menu_son" id="Scroll_Origins">
+                <h4>Origins</h4>
+            </li>
+            <li class="SignIn_text menu_son" id="Scroll_Customes">
+                <h4>Customes</h4>
+            </li>
+            <li class="SignIn_text menu_son" id="Scroll_Movies">
+                <h4>Movies</h4>
+            </li>
+        </uL>
+    </div>
+
+    <div style="display: none;" class="NaviMobile" id="NaviMobile">
+        <ul class="nav-list-mobile">
+            <li class="nav-items-mobile Nav_Hom_Mobile"><a href="./index.html" class="items">Home</a></li>
+            <li class="nav-items-mobile Nav_Movies_Mobile"><a href="./movie.html" class="items">Movies</a></li>
+            <li class="nav-items-mobile Nav_Shop_Mobile"><a href="./shop.html" class="items shop">Shop</a></li>
+            <li class="nav-items-mobile Nav_More_Mobile"><a href="./more.html" class="items">More</a></li>
+        </ul>
+    </div>
+
+    <div style="display: none;" class="Modal_SignIn_Form" id="Modal_Form">
+        <div class="Modal_content" id="Modal_content_id">
+            <div style="width: 94%; display: flex; justify-content: end;">
+                <i class="fa faaaaa fa-times" id="faaaaa" aria-hidden="true"></i>
+            </div>
+            <form class="SignIn_Form">
+                <h1 class="Sign_text_content" id="Sign_text_content">Sign In</h1>
+                <input type="text" placeholder="Username" class="input_signin">
+                <hr class="line_modal">
+                <input type="password" placeholder="Password" class="input_signin">
+                <hr class="line_modal">
+                <input type="button" value="Submit" class="Submit_Modal">
+                <h5 class="other_form hoverable">Forgot Password?</h5>
+                <hr class="line_modal_other">
+                <h5 class="other_form">Don't have an account? <span id="create_one" class="hoverable">Create one</span>
+                </h5>
+            </form>
+        </div>
+    </div>
+
+    <div class="article article_huhu">
+        <div class="para">
+            <h1 class="header"><span class="spann">About The </span><span>Event</span></h1>
+            <h4 class="semi-header">What is Halloween?</h4>
+            <p class="paragraph">Halloween is a holiday celebrated each year on October 31, and Halloween 2023
+                will occur on Tuesday, October 31. The tradition originated with the ancient Celtic
+                festival of Samhain, when people would light bonfires and wear costumes to ward
+                off ghosts. In the eighth century, Pope Gregory III designated November 1 as a
+                time to honor all saints. Soon, All Saints Day incorporated some of the traditions
+                of Samhain. The evening before was known as All Hallows Eve, and later Halloween.
+                Over time, Halloween evolved into a day of activities like trick-or-treating, carving
+                jack-o-lanterns, festive gatherings, donning costumes and eating treats.
+            </p>
+            <form class="MoreButton" action="./more.html">
+                <input class="morebtn" type="button" value="More" style="font-weight: 400;">
+            </form>
+        </div>
+        <div class="image">
+            <img src="./images/Halloween.jpeg" class="AboutImg">
+        </div>
+    </div>
+    <hr class="line">
+
+    <div class="article his_art">
+        <div class="Hispara">
+            <h1 class="header">Origins</h1>
+            <h4 class="semi-header">History of the fear</h4>
+            <p class="paragraphh">Halloween’s origins date back to the ancient Celtic festival of
+                Samhain (pronounced sow-in). The Celts, who lived 2,000 years ago, mostly in the
+                area that is now Ireland, the United Kingdom and northern France, celebrated
+                their new year on November 1.
+                <br>
+                <br>
+                This day marked the end of summer and the
+                harvest and the beginning of the dark, cold winter, a time of year that was often
+                associated with human death. Celts believed that on the night before the new year,
+                the boundary between the worlds of the living and the dead became blurred. On the
+                night of October 31 they celebrated Samhain, when it was believed that the ghosts
+                of the dead returned to earth.
+            </p>
+        </div>
+        <div class="hisimagediv">
+            <img src="./images/Book_of_Hallowe'en.jpg" class="HisImg">
+        </div>
+    </div>
+    <hr class="line">
+    <div class="article" style="padding-bottom: 50px;">
+        <div class="CustomPara">
+            <h1 class="Cusheader">Halloween <span style="color: white;">Costumes</span></h1>
+            <h4 class="Cussemi-header">Is that a monster!?</h4>
+            <p class="Cusparagraph">Costumes worn on Halloween, a festival which falls on October 31.
+                An early reference to wearing costumes at Halloween comes from Scotland in 1585,
+                but they may pre-date this. There are many references to the custom during the
+                18th and 19th centuries in the Celtic countries of Scotland, Ireland, Mann and Wales.
+                <br>
+                <br>
+                Dressing up in costumes and going "guising" was prevalent in Scotland and Ireland at Halloween
+                by the late 19th century. A Scottish term, the tradition is called "guising" because of the
+                disguises or costumes worn by the children.
+                <br>
+                <br>
+                Costuming became popular for Halloween parties in the US in the early 20th century, as often for
+                adults as for children, and when trick-or-treating was becoming popular in Canada and the US in the
+                1920s and 1930s.
+            </p>
+
+            <div class="Cusdiv" style="justify-content: center; display: flex;">
+                <img src="./images/halloween_white-house_4_a1685-23.jpg" class="Cusimage">
+            </div>
+
+        </div>
+
+
+    </div>
+    <hr class="line">
+
+    <div id="Gallery1" class="Gallery" style="display: flex;">
+        <h2 class="He">Gallery:<span style="color: whitesmoke;"> Costumes Through the Ages</span></h2>
+        <div class="CustomeImg">
+            <button id="PrevGal1" class="TurnBtn nnn"><i class="fa faaa fa-caret-left" aria-hidden="true"></i></button>
+            <div class="Gal">
+                <img src="./images/Customes_Gallery/1910s.jpg" class="CustomeeImg">
+            </div>
+            <button id="NextGal1" class="TurnBtn nnn"><i class="fa faaa fa-caret-right" aria-hidden="true"></i></button>
+        </div>
+        <div style="justify-content: center;">
+            <p class="GalleryPara">In the early 20th century, Halloween costumes were geared toward spooky themes (as
+                opposed
+                to current events), and were mostly homemade. Here, women dressed as witches line up for a
+                Halloween portrait, circa 1910.</p>
+        </div>
+    </div>
+    <div id="Gallery2" class="Gallery" style="display: none;">
+        <h2 class="He">Gallery:<span style="color: whitesmoke;"> Costumes Through the Ages</span></h2>
+        <div class="CustomeImg">
+            <button id="PrevGal2" class="TurnBtn nnn"><i class="fa faaa fa-caret-left" aria-hidden="true"></i></button>
+            <div class="Gal">
+                <img src="./images/Customes_Gallery/1920s.jpg" class="CustomeeImg">
+            </div>
+            <button id="NextGal2" class="TurnBtn nnn"><i class="fa faaa fa-caret-right" aria-hidden="true"></i></button>
+        </div>
+        <div style="justify-content: center;">
+            <p class="GalleryPara">The goal of early costumes wasn't necessarily to dress up as a particular creature or
+                character, but rather to conceal one's identity in a spooky way that evoked themes like ghosts, witches,
+                black cats or the moon. A man dressed in a cat costume for Halloween, circa 1920.</p>
+        </div>
+    </div>
+    <div id="Gallery3" class="Gallery3 Gallery" style="display: none;">
+        <h2 class="He">Gallery:<span style="color: whitesmoke;"> Costumes Through the Ages</span></h2>
+        <div class="CustomeImg">
+            <button id="PrevGal3" class="TurnBtn nnn"><i class="fa faaa fa-caret-left" aria-hidden="true"></i></button>
+            <div class="Gal">
+                <img src="./images/Customes_Gallery/1930s.jpg" class="CustomeeImg">
+            </div>
+            <button id="NextGal3" class="TurnBtn nnn"><i class="fa faaa fa-caret-right" aria-hidden="true"></i></button>
+        </div>
+        <div style="justify-content: center;">
+            <p class="GalleryPara">Box costumes were considered expensive luxuries during the Great Depression era, so
+                most families continued to make their own Halloween outfits using costume patterns, Children in costumes
+                gather at a
+                Halloween party in Madison, Wisconsin, 1931.</p>
+        </div>
+    </div>
+    <div id="Gallery4" class="Gallery" style="display: none;">
+        <h2 class="He">Gallery:<span style="color: whitesmoke;"> Costumes Through the Ages</span></h2>
+        <div class="CustomeImg">
+            <button id="PrevGal4" class="TurnBtn nnn"><i class="fa faaa fa-caret-left" aria-hidden="true"></i></button>
+            <div class="Gal">
+                <img src="./images/Customes_Gallery/1940s.jpg" class="CustomeeImg">
+            </div>
+            <button id="NextGal4" class="TurnBtn nnn"><i class="fa faaa fa-caret-right" aria-hidden="true"></i></button>
+        </div>
+        <div style="justify-content: center;">
+            <p class="GalleryPara">These fifth- and sixth-graders prepare for Halloween by creating papier mache masks,
+                1947.</p>
+        </div>
+    </div>
+    <div id="Gallery5" class="Gallery" style="display: none;">
+        <h2 class="He">Gallery:<span style="color: whitesmoke;"> Costumes Through the Ages</span></h2>
+        <div class="CustomeImg">
+            <button id="PrevGal5" class="TurnBtn nnn"><i class="fa faaa fa-caret-left" aria-hidden="true"></i></button>
+            <div class="Gal">
+                <img src="./images/Customes_Gallery/1950s.jpg" class="CustomeeImg">
+            </div>
+            <button id="NextGal5" class="TurnBtn nnn"><i class="fa faaa fa-caret-right" aria-hidden="true"></i></button>
+        </div>
+        <div style="justify-content: center;">
+            <p class="GalleryPara">In the 1950s, mass-produced box costumes became more affordable, so more kids began
+                to use them to dress up. Here, children pose as they trick or treat with their costumes and masks,
+                1955.How Donald Duck and Peanuts Saved Trick-or-Treating</p>
+        </div>
+    </div>
+    <hr class="line" style="margin: 0px; width: 100%;">
+    <div class="article movie_art"
+        style="display: flex; flex-direction: column; background-color: #14091a; justify-content: center;">
+        <h1 class="header" style="text-align: center; color: white; padding-bottom: 50px;">Top <span
+                style="color: brown;">Movies</span></h1>
+        <hr class="line">
+        <div id="Movie1">
+            <div class="mmmmm" style="display: flex; justify-content: center; align-items: center;">
+                <input class="prev" type="button" id="prev1" value="&#10094">
+                <div class="mmm active" id="active">
+                    <h1 class="FilmHeader">IT CHAPTER 2</h1>
+                    <div class="mmmm MM" style="display: flex;">
+                        <div class="Movies">
+                            <img src="./images/Movies/It2.jpg" class="MovieImg">
+                        </div>
+                        <div class="Movpara">
+                            <h2 class="HeadMov">Details</h2>
+                            <p class="movdetail"><span style="font-weight: 400; color: #b3bc36;">Director:</span> Andy
+                                Muschietti</p>
+                            <p class="movdetail"><span style="font-weight: 400; color: #b3bc36;">Genre:</span> Horror,
+                                Mystery, Thriller, Supernatural</p>
+                            <p class="movdetail"><span style="font-weight: 400; color: #b3bc36;">Release dates:</span>
+                                August 26, 2019</p>
+                            <p class="movdetail"><span style="font-weight: 400; color: #b3bc36;">Running time:</span>
+                                169 minutes</p>
+                            <p class="movdetail"><span style="font-weight: 400; color: #b3bc36;">Rate:</span> Rated R
+                                for disturbing violent content
+                                and bloody images throughout, pervasive language, and some crude sexual material.</p>
+                            <h2 class="HeadMov">Description</h2>
+                            <p class="ParaMov movdetail">Twenty-seven years after It’s initial defeat, Pennywise returns
+                                to Derry, Maine, in 2016. It kills a man named
+                                Adrian Mellon after he and his boyfriend are brutally assaulted by homophobic teens
+                                following a carnival.
+                            </p>
+                            <input class="BuyBtn" type="button" value="Buy a ticket">
+                        </div>
+                    </div>
+                </div>
+                <input class="next" type="button" id="next1" value="&#10095">
+
+            </div>
+        </div>
+        <div id="Movie2">
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <input class="prev" type="button" id="prev2" value="&#10094">
+                <div class="mmm" id="hidden">
+                    <h1 class="FilmHeader">THE SHINNING</h1>
+                    <div class="mmmm" style="display: flex;">
+                        <div class="Movies">
+                            <img src="./images/Movies/The Shinning.jpg" class="MovieImg">
+                        </div>
+                        <div class="Movpara">
+                            <h2 class="HeadMov">Details</h2>
+                            <p class="movdetail"><span style="font-weight: 400; color: #b3bc36;">Director:</span>
+                                Stanley Kubrick</p>
+                            <p class="movdetail"><span style="font-weight: 400; color: #b3bc36;">Genre:</span> Horror,
+                                Psychological horror, Mystery</p>
+                            <p class="movdetail"><span style="font-weight: 400; color: #b3bc36;">Release dates:</span>
+                                May 23, 1980</p>
+                            <p class="movdetail"><span style="font-weight: 400; color: #b3bc36;">Running time:</span>
+                                146 minutes</p>
+                            <p class="movdetail"><span style="font-weight: 400; color: #b3bc36;">Rate:</span> Rated
+                                R by the MPAA For graphic violence, profanity, and brief nudity.
+                                Violence: A large volume of blood is seen throughout the film.</p>
+                            <h2 class="HeadMov">Description</h2>
+                            <p class="ParaMov">Jack Torrance takes a winter caretaker position at the remote
+                                Overlook Hotel in the Colorado Rocky Mountains, which closes every
+                                winter season. After his arrival, manager Stuart Ullman advises
+                                Torrance that a previous caretaker, Charles Grady, killed his
+                                wife, two young daughters and himself in the hotel.
+                            </p>
+                            <input class="BuyBtn" type="button" value="Buy a ticket">
+                        </div>
+                    </div>
+                </div>
+                <input class="next" type="button" id="next2" value="&#10095">
+            </div>
+        </div>
+        <div id="Movie3">
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <input class="prev" type="button" id="prev3" value="&#10094">
+                <div class="mmm" id="hidden">
+                    <h1 class="FilmHeader">US</h1>
+                    <div class="mmmm" style="display: flex;">
+                        <div class="Movies">
+                            <img src="./images/Movies/Us.jpg" class="MovieImg">
+                        </div>
+                        <div class="Movpara">
+                            <h2 class="HeadMov">Details</h2>
+                            <p class="movdetail"><span style="font-weight: 400; color: #b3bc36;">Director:</span> Jordan
+                                Peele</p>
+                            <p class="movdetail"><span style="font-weight: 400; color: #b3bc36;">Genre:</span> Horror,
+                                Mystery, Thriller, Psychological horror</p>
+                            <p class="movdetail"><span style="font-weight: 400; color: #b3bc36;">Release dates:</span>
+                                March 22, 2019</p>
+                            <p class="movdetail"><span style="font-weight: 400; color: #b3bc36;">Running time:</span>
+                                116 minutes</p>
+                            <p class="movdetail"><span style="font-weight: 400; color: #b3bc36;">Rate:</span> Rated
+                                R for violence/terror, and language.</p>
+                            <h2 class="HeadMov">Description</h2>
+                            <p class="ParaMov" style="font-size: 16px;">In 1986, a young girl named Adelaide “Addy”
+                                Thomas watches a
+                                commercial for Hands Across America. One night at the Santa Cruz
+                                Beach Boardwalk, she wanders away from her parents and enters a
+                                funhouse, where she encounters a doppelgänger of herself in the
+                                house of mirrors. Following the encounter she stops speaking and
+                                withdraws from her family.
+                            </p>
+                            <input class="BuyBtn" type="button" value="Buy a ticket">
+                        </div>
+                    </div>
+                </div>
+                <input class="next" type="button" id="next3" value="&#10095">
+            </div>
+        </div>
+        <div id="Movie4">
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <input class="prev" type="button" id="prev4" value="&#10094">
+                <div class="mmm" id="hidden1">
+                    <h1 class="FilmHeader">THE SILENCE OF THE LAMBS</h1>
+                    <div class="mmmm" style="display: flex;">
+                        <div class="Movies">
+                            <img src="./images/Movies/TSOTL.jpg" class="MovieImg">
+                        </div>
+                        <div class="Movpara">
+                            <h2 class="HeadMov">Details</h2>
+                            <p class="movdetail"><span style="font-weight: 400; color: #b3bc36;">Director:</span>
+                                Jonathan Demme</p>
+                            <p class="movdetail"><span style="font-weight: 400; color: #b3bc36;">Genre:</span> Horror,
+                                Thriller, Psychological thriller, Crime film,
+                                Psychological horror, Neo-noir, Mystery, Drama</p>
+                            <p class="movdetail"><span style="font-weight: 400; color: #b3bc36;">Release dates:</span>
+                                February 14, 1991</p>
+                            <p class="movdetail"><span style="font-weight: 400; color: #b3bc36;">Running time:</span>
+                                118 minutes</p>
+                            <p class="movdetail"><span style="font-weight: 400; color: #b3bc36;">Rate:</span> Rated
+                                R for strong violence including a man being beaten to death with a
+                                baton and another having his face bitten into. There are also
+                                strong verbal descriptions of the activities of serial killers.</p>
+                            <h2 class="HeadMov">Description</h2>
+                            <p class="ParaMov">TClarice Starling, an FBI trainee, is pulled from her regimen at
+                                the Quantico FBI Academy by her boss, Jack Crawford. He assigns
+                                her to interview Hannibal Lecter, an incarcerated former
+                                psychiatrist and cannibalistic serial killer, on the pretense of
+                                persuading Lecter to answer a questionnaire about himself for the
+                                Bureau's psychological profiles, but secretly hoping to gain his
+                                insights about a psychopath serial killer nicknamed "Buffalo
+                                Bill," who kills young women and removes their skin from their
+                                bodies.
+                            </p>
+                            <input class="BuyBtn" type="button" value="Buy a ticket">
+                        </div>
+                    </div>
+                </div>
+                <input class="next" type="button" id="next4" value="&#10095">
+            </div>
+        </div>
+        <div id="Movie5">
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <input class="prev" type="button" id="prev5" value="&#10094">
+                <div class="mmm" id="hidden">
+                    <h1 class="FilmHeader">SHUTTER ISLAND</h1>
+                    <div class="mmmm" style="display: flex;">
+                        <div class="Movies">
+                            <img src="./images/Movies/Shutter.jpg" class="MovieImg">
+                        </div>
+                        <div class="Movpara">
+                            <h2 class="HeadMov">Details</h2>
+                            <p class="movdetail"><span style="font-weight: 400; color: #b3bc36;">Director:</span> Martin
+                                Scorsese</p>
+                            <p class="movdetail"><span style="font-weight: 400; color: #b3bc36;">Genre:</span> Thriller,
+                                Horror, Psychological thriller, Mystery, Neo-noir, Drama</p>
+                            <p class="movdetail"><span style="font-weight: 400; color: #b3bc36;">Release dates:</span>
+                                February 13, 2010</p>
+                            <p class="movdetail"><span style="font-weight: 400; color: #b3bc36;">Running time:</span>
+                                139 minutes</p>
+                            <p class="movdetail"><span style="font-weight: 400; color: #b3bc36;">Rate:</span> Rated
+                                R by the MPAA for disturbing violent content, language and some
+                                nudity.</p>
+                            <h2 class="HeadMov">Description</h2>
+                            <p class="ParaMov">In 1954, U.S. Marshal Edward "Teddy" Daniels and his new partner
+                                Chuck Aule travel to Ashecliffe Hospital for the criminally insane
+                                on Shutter Island, Boston Harbor to investigate the disappearance
+                                of Rachel Solando, a patient of the hospital who had previously
+                                drowned her three children.
+                            </p>
+                            <input class="BuyBtn" type="button" value="Buy a ticket">
+                        </div>
+                    </div>
+                </div>
+                <input class="next" type="button" id="next5" value="&#10095">
+            </div>
+        </div>
+        <div id="Movie6">
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <input class="prev" type="button" id="prev6" value="&#10094">
+                <div class="mmm" id="hidden">
+                    <h1 class="FilmHeader">AMERICAN PSYCHO</h1>
+                    <div class="mmmm" style="display: flex;">
+                        <div class="Movies">
+                            <img src="./images/Movies/AmericaPsycho.jpg" class="MovieImg">
+                        </div>
+                        <div class="Movpara">
+                            <h2 class="HeadMov">Details</h2>
+                            <p class="movdetail"><span style="font-weight: 400; color: #b3bc36;">Director:</span> Mary
+                                Harron</p>
+                            <p class="movdetail"><span style="font-weight: 400; color: #b3bc36;">Genre:</span> Horror,
+                                Thriller, Comedy, Slasher, Satire, Psychological thriller,
+                                Dark comedy, Drama, Mystery, Comedy horror, Crime Fiction</p>
+                            <p class="movdetail"><span style="font-weight: 400; color: #b3bc36;">Release dates:</span>
+                                January 21, 2000</p>
+                            <p class="movdetail"><span style="font-weight: 400; color: #b3bc36;">Running time:</span>
+                                101 minutes</p>
+                            <p class="movdetail"><span style="font-weight: 400; color: #b3bc36;">Rate:</span> Rated
+                                NC-17 for a scene featuring Bateman having a threesome with two
+                                prostitutes. The producers excised approximately 18 seconds of
+                                footage to obtain an R-rated version of the film.</p>
+                            <h2 class="HeadMov">Description</h2>
+                            <p class="ParaMov">In 1987, Patrick Bateman, a young and wealthy New York City
+                                investment banker, spends most of his time dining at popular
+                                restaurants while keeping up appearances for his fiancée Evelyn
+                                Williams and his circle of wealthy associates. Enraged by the
+                                superiority of his colleague Paul Allen's card, Bateman finds a
+                                homeless man and his dog in an alley at night and kills them.
+                            </p>
+                            <input class="BuyBtn" type="button" value="Buy a ticket">
+                        </div>
+                    </div>
+                </div>
+                <input class="next" type="button" id="next6" value="&#10095">
+            </div>
+        </div>
+        <div id="Movie7">
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <input class="prev" type="button" id="prev7" value="&#10094">
+                <div class="mmm" id="hidden">
+                    <h1 class="FilmHeader">HAPPY DEATH DAY 2U</h1>
+                    <div class="mmmm" style="display: flex;">
+                        <div class="Movies">
+                            <img src="./images/Movies/HDD.jpg" class="MovieImg">
+                        </div>
+                        <div class="Movpara">
+                            <h2 class="HeadMov">Details</h2>
+                            <p class="movdetail"><span style="font-weight: 400; color: #b3bc36;">Director:</span>
+                                Christopher Landon</p>
+                            <p class="movdetail"><span style="font-weight: 400; color: #b3bc36;">Genre:</span> HSlasher,
+                                Thriller, Mystery</p>
+                            <p class="movdetail"><span style="font-weight: 400; color: #b3bc36;">Release dates:</span>
+                                February 13, 2019</p>
+                            <p class="movdetail"><span style="font-weight: 400; color: #b3bc36;">Running time:</span>
+                                100 minutes</p>
+                            <p class="movdetail"><span style="font-weight: 400; color: #b3bc36;">Rate:</span> Rated
+                                PG-13 for violence, language, sexual material and thematic
+                                elements.</p>
+                            <h2 class="HeadMov">Description</h2>
+                            <p class="ParaMov">Tree wakes up in Carter's room on September 18 and relives her
+                                original time loop, but she soon realizes things are different
+                                after discovering that Carter is now dating a different (yet still
+                                annoying) Danielle. Ryan theorizes that the reactor caused Tree to
+                                drift into another dimension. When Tree learns her mother is still
+                                alive in this new reality, she wants to stay.
+                            </p>
+                            <input class="BuyBtn" type="button" value="Buy a ticket">
+                        </div>
+                    </div>
+                </div>
+                <input class="next" type="button" id="next7" value="&#10095">
+            </div>
+        </div>
+        <div id="Movie8">
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <input class="prev" type="button" id="prev8" value="&#10094">
+                <div class="mmm" id="hidden">
+                    <h1 class="FilmHeader">FRIDAY THE 13TH (1980)</h1>
+                    <div class="mmmm" style="display: flex;">
+                        <div class="Movies">
+                            <img src="./images/Movies/FT13.jpg" class="MovieImg">
+                        </div>
+                        <div class="Movpara">
+                            <h2 class="HeadMov">Details</h2>
+                            <p class="movdetail"><span style="font-weight: 400; color: #b3bc36;">Director:</span> Sean
+                                S. Cunningham</p>
+                            <p class="movdetail"><span style="font-weight: 400; color: #b3bc36;">Genre:</span> Horror,
+                                Mystery, Slasher, Cult film, Teen</p>
+                            <p class="movdetail"><span style="font-weight: 400; color: #b3bc36;">Release dates:</span>
+                                May 9, 1980</p>
+                            <p class="movdetail"><span style="font-weight: 400; color: #b3bc36;">Running time:</span> 95
+                                minutes</p>
+                            <p class="movdetail"><span style="font-weight: 400; color: #b3bc36;">Rate:</span> Rated
+                                R for some gratuitous sexual content includes brief female nudity
+                                and moaning during a sex scene, a flashback scene in which two
+                                characters are seemingly on the verge of having sex when they are
+                                killed, characters play a game of "strip Monopoly," and talk of
+                                sex throughout.</p>
+                            <h2 class="HeadMov">Description</h2>
+                            <p class="ParaMov">In 1958 at Camp Crystal Lake, counselors Barry Jackson and
+                                Claudette Hayes sneak inside a storage cabin to have sex, where an
+                                unseen assailant murders them. In the present day, camp counselor
+                                and cook Annie Phillips is driven halfway to the reopened Camp
+                                Crystal Lake by Enos, a truck driver, despite warnings from
+                                elderly Crazy Ralph, and disgusted reactions from the townspeople.
+                                While driving, Enos warns Annie about the camp's troubled past,
+                                beginning when a young boy drowned in Crystal Lake in 1957.
+                            </p>
+                            <input class="BuyBtn" type="button" value="Buy a ticket">
+                        </div>
+                    </div>
+                </div>
+                <input class="next" type="button" id="next8" value="&#10095">
+            </div>
+        </div>
+        <div id="Movie9">
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <input class="prev" type="button" id="prev9" value="&#10094">
+                <div class="mmm" id="hidden">
+                    <h1 class="FilmHeader">SMILE</h1>
+                    <div class="mmmm" style="display: flex;">
+                        <div class="Movies">
+                            <img src="./images/Movies/Smile.jpg" class="MovieImg">
+                        </div>
+                        <div class="Movpara">
+                            <h2 class="HeadMov">Details</h2>
+                            <p class="movdetail"><span style="font-weight: 400; color: #b3bc36;">Director:</span> Parker
+                                Finn</p>
+                            <p class="movdetail"><span style="font-weight: 400; color: #b3bc36;">Genre:</span> Horror,
+                                Psychological horror</p>
+                            <p class="movdetail"><span style="font-weight: 400; color: #b3bc36;">Release dates:</span>
+                                September 28, 2022</p>
+                            <p class="movdetail"><span style="font-weight: 400; color: #b3bc36;">Running time:</span>
+                                115 minutes</p>
+                            <p class="movdetail"><span style="font-weight: 400; color: #b3bc36;">Rate:</span> Rated
+                                R for strong violent content and grisly images, and language.</p>
+                            <h2 class="HeadMov">Description</h2>
+                            <p class="ParaMov">At a psychiatric ward, therapist Dr. Rose Cotter meets graduate
+                                student Laura Weaver, who explains that she recently witnessed her
+                                professor die by suicide. Laura claims she is being terrorized by
+                                an invisible entity which appears as various smiling people and
+                                has foretold her death. Laura begins screaming and panicking and
+                                Rose calls for help. Laura suddenly becomes unnaturally calm and
+                                smiles, then slits her own throat, terrifying Rose.
+                            </p>
+                            <input class="BuyBtn" type="button" value="Buy a ticket">
+                        </div>
+                    </div>
+                </div>
+                <input class="next" type="button" id="next9" value="&#10095">
+            </div>
+        </div>
+    </div>
+    <div class="formSignUp">
+
+        <form id="form">
+            <h2 class="FormHeader">Join us now!</h2>
+            <h3 class="FormHead">Display Name</h3>
+            <input type="text" placeholder="Name" class="input" id="Name"><br>
+            <h3 class="FormHead">Email<br></h3>
+            <input type="email" placeholder="Your email" class="input" id="Email"><br>
+            <h3 class="FormHead">Password <br></h3>
+            <input type="password" placeholder="Your password" class="input" id="Password"><br>
+            <input type="button" value="Submit" id="Submit" class="Submit">
+        </form>
+        <div class="FormImg" style="width: 50%;">
+            <img src="./images/macbook.png" style="width: 500px; padding: 50px 0px;">
+        </div>
+    </div>
+    <hr class="line-other" style="background-color: gold; margin: 0px; width: 100%; height: 10px; border: 0px;">
+    <div class="footer">
+        <div class="credit" style="margin-top: 30px;">
+            <h2 class="footerbrand" style="text-align: center;">AE</h2>
+            <h5 style="margin: 0px; font-weight: 200;">network</h5>
+        </div>
+        <h5 style="margin: 0px; font-weight: 200; margin: 20px;">OUR FAMILY OF BRANDS</h5>
+        <hr style="width: 75%; background-color: #dedcdc; height: 1px; border: 0px;">
+
+        <div class="others">
+
+            <div class="History" style="margin-right: 50px; margin-top: 20px;">
+                <ul>
+
+                    <li class="items-other"><a href="" class="iteams-other-other">History Education</a></li>
+                    <li class="items-other"><a href="" class="iteams-other-other">History Vault</a></li>
+                    <li class="items-other"><a href="" class="iteams-other-other">Mobile/Apps</a></li>
+                    <li class="items-other"><a href="" class="iteams-other-other">News</a></li>
+                    <li class="items-other"><a href="" class="iteams-other-other">Shop</a></li>
+                    <li class="items-other"><a href="" class="iteams-other-other">Share your opinion</a></li>
+                    <i class="fa fa-facebook" style="margin: 5px;" aria-hidden="true"
+                        style="border: 1px; border-radius: 50px;"></i><i class="fa fa-twitter" style="margin: 5px;"
+                        aria-hidden="true"></i><i class="fa fa-youtube-play" style="margin: 5px;"
+                        aria-hidden="true"></i><i class="fa fa-instagram" style="margin: 5px;" aria-hidden="true"></i>
+                </ul>
+
+            </div>
+            <div class="Bio">
+                <div class="Upper">
+
+                    <ul class="Listt">
+
+                        <li class="items-other"><a href="" class="iteams-other-other">Biography</a></li>
+                        <li class="items-other"><a href="" class="iteams-other-other">Crime and Investigation</a></li>
+                    </ul>
+
+
+                    <ul class="Listt">
+
+                        <li class="items-other"><a href="" class="iteams-other-other">History en Espagnol</a></li>
+                        <li class="items-other"><a href="" class="iteams-other-other">LRW</a></li>
+                    </ul>
+
+
+                    <ul class="Listt">
+                        <li class="items-other"><a href="" class="iteams-other-other">Military School</a></li>
+                    </ul>
+
+                </div>
+                <hr style="width: 550px; background-color: #dedcdc; height: 1px; border: 0px; margin-top: 30px;">
+                <div class="Bottom">
+
+                    <ul class="Listt">
+                        <li class="items-other"><a href="" class="iteams-other-other">Ad Choices</a></li>
+                        <li class="items-other"><a href="" class="iteams-other-other">Advertise WIth Us</a></li>
+                        <li class="items-other"><a href="" class="iteams-other-other">Accessibility Support</a></li>
+                        <li class="items-other"><a href="" class="iteams-other-other">Copyright Policy</a></li>
+                    </ul>
+
+
+                    <ul class="Listt">
+                        <li class="items-other"><a href="" class="iteams-other-other">Corporate Information</a></li>
+                        <li class="items-other"><a href="" class="iteams-other-other">Employment Opportunities</a></li>
+                        <li class="items-other"><a href="" class="iteams-other-other">FAQ/Contact Us</a></li>
+                        <li class="items-other"><a href="" class="iteams-other-other">Privacy Notice</a></li>
+                    </ul>
+
+
+                    <ul class="Listt">
+                        <li class="items-other"><a href="" class="iteams-other-other">Cookie Notice</a></li>
+                        <li class="items-other"><a href="" class="iteams-other-other">Terms Of Use</a></li>
+                        <li class="items-other"><a href="" class="iteams-other-other">TV Parental Guidelines</a></li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="hidden_others">
+            <ul class="hidden_list">
+                <li class="hidden_list_items"><a href="." class="hidden_list_items_a">Contact Us</a></li>
+                <hr class="hidden_line">
+                <li class="hidden_list_items"><a href="." class="hidden_list_items_a">Copyright Policy</a></li>
+                <hr class="hidden_line">
+                <li class="hidden_list_items"><a href="." class="hidden_list_items_a">Privacy Policy</a></li>
+                <hr class="hidden_line">
+                <li class="hidden_list_items"><a href="." class="hidden_list_items_a">Terms of Use</a></li>
+                <hr class="hidden_line">
+                <li class="hidden_list_items"><a href="." class="hidden_list_items_a">Ad Choices</a></li>
+                <hr class="hidden_line">
+                <li class="hidden_list_items"><a href="." class="hidden_list_items_a">Accessibility Support</a></li>
+            </ul>
+        </div>
+
+        <div class="Copyright">
+            <h4 class="Copyright">© 2023, A&E Television Networks, LLC. All Rights Reserved.</h4>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+    <script src="./home.js"></script>
+</body>
+
+</html>

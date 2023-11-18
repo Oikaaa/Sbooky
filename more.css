@@ -1,0 +1,100 @@
+.nav-list{
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.navigator{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #261d2b;
+    height: 60px;
+}
+
+.nav-logo:hover{
+    cursor: pointer;
+}
+
+.nav-logo{
+    padding: 20px 10px 0px 10px;
+    font-size: 25px;
+    color: white;
+}
+
+.search{
+    text-align: center;
+    display: flex;
+    height: 20px;
+    width: 70px;
+    padding: 20px 30px;
+    color: white;
+}
+
+.search-nav-items{
+    text-align: center;
+    display: block;
+    height: 10px;
+    width: 50px;
+    padding: 20px 30px;
+    color: white;
+}
+
+.nav-items{
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.nav-items a {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    height: 30px;
+    width: 50px;
+    padding: 20px 30px;
+}
+
+.nav-items:hover{
+    .items{
+        color: black;
+    }
+    background-color: white;
+    cursor: pointer;
+}
+
+.nav-items:hover{
+    .fa{
+        color: black;
+    }
+    background-color: white;
+    cursor: pointer;
+}
+
+.nav-items-bars:hover{
+    background-color: brown;
+}
+
+.nav-items-bars{
+    color: white;
+    cursor: pointer;
+}
+
+img{
+    width: 400px;
+}
+
+.div{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    margin-top: 200px;
+    font-size: 25px;
+}

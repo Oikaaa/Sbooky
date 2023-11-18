@@ -1,0 +1,465 @@
+.nav-list{
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.navigator{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #131921;
+    height: 60px;
+}
+
+.search{
+    text-align: center;
+    display: flex;
+    height: 20px;
+    width: 70px;
+    padding: 20px 30px;
+    color: white;
+}
+
+.nav-logo:hover{
+    cursor: pointer;
+}
+
+.nav-logo{
+    color: #fff;
+    padding: 20px 10px 0px 10px;
+    font-size: 25px;
+}
+
+.nav-items{
+    color: white;
+}
+
+.nav-items a {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    height: 30px;
+    width: 50px;
+    padding: 20px 30px;
+}
+
+.nav-items:hover{
+    .items{
+        color: black;
+    }
+    background-color: white;
+    cursor: pointer;
+}
+
+.nav-items:hover{
+    .fa{
+        color: black;
+    }
+    background-color: white;
+    cursor: pointer;
+}
+
+.nav-items-bars:hover{
+    background-color: brown;
+}
+
+.nav-items-bars{
+    color: white;
+    cursor: pointer;
+}
+
+.product{
+    width: 300px;
+    height: 600px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0px;
+}
+
+.NaviMobile{
+    width: 110px;
+    height: 224px;
+    background-color: white;
+    position: fixed;
+    top: 60px;
+    left: 0px;
+}
+
+.nav-list-mobile{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav-items-mobile a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    height: 10px;
+    width: 50px;
+    padding: 23px 30px;
+}
+
+.nav-items-mobile a :hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.nav-items-mobile :hover{
+    background-color: goldenrod;
+    color: white;
+}
+
+
+.product:hover{
+    cursor: pointer;
+    border-style: outset;
+}
+
+.fa{
+    color: gold;
+}
+
+.imgg{
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    border-radius: 5px;
+    align-self: center;
+    background-color: #e5e5e5;
+    display: flex;
+    justify-content: center;
+}
+
+.product-img{
+    width: 100%;
+    height: 348px;
+}
+
+.product-header{
+    margin: 5px;
+    font-weight: 400;
+}
+
+.rating{
+    margin: 5px;
+    font-weight: 400;
+}
+
+.other-detail{
+    margin: 5px;
+}
+
+.currency{
+    margin-top: 10px; 
+    font-weight: 200;
+}
+
+.price-detail{
+    margin: 5px;
+    height: 50px;
+}
+
+.hidden_others{
+    display: none;
+}
+
+.hidden_list{
+    display: flex;
+
+}
+
+.hidden_line{
+    background-color:#b5b5b5;
+    border: 0px;
+    width: 1px;
+}
+
+.hidden_list_items{
+    list-style: none;
+    padding: 10px;
+}
+
+.hidden_list_items a {
+    text-decoration: none;
+    color: black;
+    font-weight: 200;
+}
+
+.price{
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.other{
+    margin-top: 10px; 
+    font-weight: 200;
+}
+
+.product-description{
+    padding: 0px 5px;
+}
+
+.ship{
+    margin: 5px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.others{
+    display: flex;
+}
+
+.Upper{
+    display: flex;
+    height: 50px;
+    padding: 0px;
+}
+
+.Bio{
+    display: flex;
+    flex-direction: column;
+}
+
+.Bottom{
+    display: flex;
+}
+
+.Listt{
+    height: 50px;
+}
+
+.items-other a{
+    text-decoration: none;
+    color: black;
+}
+
+.items-other{
+    list-style: none;
+    font-weight: 300;
+    margin: 10px 0px;
+}
+
+.credit{
+    font-size: 30px;
+}
+
+.footerbrand{
+    margin: 0px;
+}
+
+.Copyright{
+    font-weight: 200;
+    font-size: 13px;
+    margin: 20px;
+}
+
+button{
+    width: 200px;
+    height: 50px;
+    border-style: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .Nav_Movies{
+        display: none;
+    }
+    .Nav_Shop{
+        display: none;
+    }
+    .Nav_More{
+        display: none;
+    }
+    .search{
+        display: none;
+    }
+}
+
+.menu{
+    height: 36px;
+    width: 150px;
+    background-color: white;
+    position: fixed;
+    top: 60px;
+    display: none;
+    right: 0px;
+}
+
+.Gallery{
+    display: flex; flex-wrap: wrap;justify-content: space-around;
+}
+
+.menu_signin{
+    width: 100%;
+}
+
+.SignIn_text > h4{
+    margin: 0px;
+    padding: 10px;
+    font-weight: 300;
+}
+
+.menu_son:hover{
+    cursor: pointer;
+    background-color: #e5e5e5;
+}
+
+.movie_art{
+    padding-bottom: 100px;
+}
+
+.Modal_SignIn_Form{
+    position: fixed;
+    height: 1080px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.4);
+    display: none;
+}
+
+.Modal_content{
+    position: fixed;
+    background-color: white;
+    opacity: 1.4;
+    height: 450px;
+    width: 400px;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px; 
+    margin-left: -200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Sign_text_content{
+    text-align: center;
+}
+
+.input_signin{
+    border-style: none;
+    height: 50px;
+    margin: 0px;
+    font-size: 17px;
+}
+
+.Submit_Modal{
+    height: 50px;
+    border-style: none;
+    margin-top: 30px;
+    background-color: goldenrod;
+    color: white;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.SignIn_Form{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.line_modal{
+    width: 100%;
+    margin: 0px;
+}
+
+.line_modal_other{
+    width: 100%;
+}
+
+.other_form{
+    text-align: center;
+    margin: 15px 0px;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.faaaaa{
+    color: grey;
+    font-size: 20px;
+}
+
+.faaaaa:hover{
+    cursor: pointer;
+}
+
+.hoverable{
+    color: goldenrod;
+}
+
+.hoverable:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.Alt{
+    display: none;
+}
+
+@media (max-width: 800px) {
+    .Nav_Home{
+        display: none;
+    }
+    .Nav_Movies{
+        display: none;
+    }
+    .Nav_Shop{
+        display: none;
+    }
+    .Nav_More{
+        display: none;
+    }
+
+    .Alt{
+        display: block;
+    }
+
+    .Gallery{
+        justify-content: center;
+    }
+
+    .hidden_others{
+        display: block;
+    }
+
+    .hidden_list{
+        flex-wrap: wrap;
+    }
+
+    .hidden_line{
+        margin: 5px;
+    }
+
+    .others{
+        display: none;
+    }
+
+}
+
